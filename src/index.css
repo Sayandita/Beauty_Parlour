@@ -1,0 +1,37 @@
+@import "tailwindcss";
+*{
+  font-family: sans-serif;
+}
+body{
+  background-color: #1A1927;
+  color: #E1E6EC;
+}
+#tasklist::-webkit-scrollbar{
+  background-color: transparent;
+  height: 5px;
+}
+#tasklist::-webkit-scrollbar-thumb{
+  background-color: rgb(143,143,143);
+  border-radius: 50px;
+}
+input{
+  border-radius: 0;
+  accent-color: #E1E6EC;
+
+}
+textarea{
+  border-radius: 0;
+}
+::-webkit-calendar-picker-indicator { background-color:transparent}
+::-webkit-datetime-edit-text { color:#99a1af}
+::-webkit-datetime-edit-month-field { color:#99a1af }
+::-webkit-datetime-edit-day-field { color: #99a1af; }
+::-webkit-datetime-edit-year-field { color:#99a1af; }
+::-webkit-calendar-picker-indicator{ 
+  background-image: url(https://img.icons8.com/?size=100&id=23&format=png&color=99a1af);
+      background-position:center;
+       background-size:20px 20px;
+       background-repeat:no-repeat;
+      color:rgba(204,204,204,0);
+}
+/* blue #217A88 green#20695E yellow#AE8160 red#9E4153
